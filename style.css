@@ -1,0 +1,31 @@
+html{
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "SegoeUT", Roboto,
+  sans-serif;
+  text-align: center;
+}
+
+body{
+  background: #000000;
+}
+
+h1{
+  font-size: 2rem;
+  }
+
+  h2{
+    font-size: 2rem;
+  }
+
+  h3{
+    font-size: 2rem;
+  }
+
+p{
+  font-size: 1rem;
+}
+p2{
+    font-size: 2rem;
+    
+
+
+  

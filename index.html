@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="manifest" href="manifest.json" />
+  </head>
+  <body>
+	   <p1> <img
+     src="https://static.thenounproject.com/png/967229-200.png"/></p1>
+    <h1><B>Geo Temp:</B></h1> 
+    <h2 id="temperature"></h2>
+    <p2><b>Weather Condition:</b></p2>
+   <h3 id="status"></h3>
+   <p id="location"></p>
+    <button onclick="getWeather()">Wanna check your weather🌞❓</button>
+   <button2><button onclick="switchbackgroundcolor()"> Change background color✨</button2>
+     <script src="script.js">
+     if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/service-worker.js');
+    }
+    </script>
+  
+
+   
+
+  </body>
+</html>
